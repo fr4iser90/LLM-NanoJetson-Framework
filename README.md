@@ -210,18 +210,18 @@ The system checker will automatically detect your platform and provide appropria
 2. **Training a Model**
 
    ```bash
-   python model_manager.py
+   python llm_hub.py
    ```
    or 
 
    ```bash
-   python -m llm.scripts.training.train_model
+   python -m scripts.training.train_model
    ```
    - Access training visualization at `http://localhost:8501`
 
 3. **Export to Ollama**
    ```bash
-   python -m llm.scripts.export.export_model_ollama
+   python -m scripts.export.export_model_ollama
    ```
 
 ## 📊 Training Visualization
